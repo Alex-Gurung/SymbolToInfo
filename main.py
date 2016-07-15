@@ -7,6 +7,5 @@ for line in inp:
 	temp.refresh()
 	out.write(line.rstrip("\n") + "," + temp.get_price() + "," + temp.get_change() + "\n")
 	#Symbol, last closing price, last change
-#"," + temp.get_info() + 
 temp = Share('FUSVX')
 print(temp.get_stock_exchange())
