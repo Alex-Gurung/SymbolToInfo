@@ -1,7 +1,7 @@
 from yahoo_finance import Share
 
 inp = open('input.txt', 'r')
-out = open('newOutput.txt', 'w')
+out = open('output.txt', 'w')
 for line in inp:
 	temp = Share(line)
 	temp.refresh()
