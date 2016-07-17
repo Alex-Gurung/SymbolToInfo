@@ -6,6 +6,6 @@ for line in inp:
 	temp = Share(line)
 	temp.refresh()
 	out.write(line.rstrip("\n") + "," + temp.get_price() + "," + temp.get_change() + "\n")
-	#Symbol, last closing price, last change
+	#FORMAT:  Symbol, last closing price, last change
 temp = Share('FUSVX')
 print(temp.get_stock_exchange())
